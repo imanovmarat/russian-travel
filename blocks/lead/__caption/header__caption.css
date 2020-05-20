@@ -1,0 +1,19 @@
+.header__caption {
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin: 8px 0 0;
+}
+
+@media (max-width: 1024px) {
+  .header__caption {
+    margin: 8px 0 0 24px;
+  }
+}
+
+@media (max-width: 720px){
+  .header__caption {
+    margin: 8px 0 0 16px;
+  }
+}
