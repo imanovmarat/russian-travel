@@ -1,0 +1,13 @@
+* {
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: red;
+}
+
+.root {
+  margin: 0;
+  background-color: #2A2C2F;
+  color: #fff;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  min-width: 340px;
+}
