@@ -1,6 +1,5 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
-@import url(./__image-container/lead__image-container.css);
 @import url(./__image/lead__image.css);
 @import url(./__caption/header__caption.css);
 
@@ -8,11 +7,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 56px;
+  padding: 56px 48px 0;
+  max-width: 1080px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 770px) {
   .lead{
-    padding-top: 48px;
+    padding: 48px 0 0;
   }
 }

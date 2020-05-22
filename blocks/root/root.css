@@ -5,9 +5,9 @@
 }
 
 .root {
-  margin: 0;
   background-color: #2A2C2F;
   color: #fff;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   min-width: 320px;
+  margin: 0 auto;
 }
