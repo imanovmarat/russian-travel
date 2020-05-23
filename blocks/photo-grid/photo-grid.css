@@ -1,0 +1,32 @@
+@import url(./__item/photo-grid__item.css);
+
+.photo-grid {
+  box-sizing: border-box;
+  padding: 92px 48px 0;
+  margin: 0 auto;
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+  justify-items: center;
+}
+
+@media screen and (max-width: 1030px) {
+  .photo-grid {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .photo-grid {
+    padding: 88px 24px 0;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .photo-grid {
+    padding: 64px 16px 0;
+    gap: 12px;
+  }
+}
