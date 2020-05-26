@@ -1,4 +1,4 @@
-.header__caption {
+.lead__caption {
   font-size: 10px;
   line-height: 14px;
   letter-spacing: 0.15em;
@@ -10,13 +10,13 @@
 }
 
 @media (max-width: 770px) {
-  .header__caption {
+  .lead__caption {
     padding: 8px 0 0 24px;
   }
 }
 
 @media (max-width: 450px){
-  .header__caption {
+  .lead__caption {
     padding: 8px 0 0 16px;
   }
 }

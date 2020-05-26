@@ -11,13 +11,13 @@
   .intro__title {
     max-width: none;
     padding: 88px 0 0;
-    font-size: 32px;
-    line-height: 35px;
   }
 }
 
 @media (max-width: 450px){
   .intro__title {
+    font-size: 32px;
+    line-height: 35px;
     padding: 64px 0 0;
   }
 }
